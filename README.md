@@ -1,2 +1,0 @@
-# Homebnb
-An Airbnb clone
