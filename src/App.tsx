@@ -1,5 +1,15 @@
+import Navbar from "./Component/Navbar";
+
 function App() {
-	return <div className="text-5xl">Hello world</div>;
+	return (
+		<div className="">
+			{/* Navbar */}
+			<Navbar />
+			{/* Filter */}
+			{/* Rentals */}
+			{/* Footer */}
+		</div>
+	);
 }
 
 export default App;
