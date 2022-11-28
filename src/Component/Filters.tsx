@@ -39,8 +39,8 @@ const Filters = () => {
 		{ title: "Surfing", icon: <GiSurfBoard /> },
 	];
 	return (
-		<div className="sm:mx-6 md:mx-10 lg:mx-12 ">
-			<div className="flex flex-nowrap justify-start gap-2 sm:gap-4 mt-4 px-3 overflow-auto">
+		<div className="sm:mx-6 md:mx-10 lg:mx-12">
+			<div className="flex flex-nowrap justify-start gap-2 sm:gap-4 mt-4 px-3 overflow-scroll">
 				{sorting.map((obj) => (
 					<Filter {...obj} />
 				))}
