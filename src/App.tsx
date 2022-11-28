@@ -1,4 +1,5 @@
 import Navbar from "./Component/Navbar";
+import Filters from "./Component/Filters";
 
 function App() {
 	return (
@@ -6,6 +7,7 @@ function App() {
 			{/* Navbar */}
 			<Navbar />
 			{/* Filter */}
+			<Filters />
 			{/* Rentals */}
 			{/* Footer */}
 		</div>
